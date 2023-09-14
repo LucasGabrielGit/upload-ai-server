@@ -2,7 +2,6 @@ import { FastifyInstance } from "fastify";
 import { fastifyMultipart } from "@fastify/multipart";
 import path from "path";
 import { randomUUID } from "node:crypto";
-
 import fs from "node:fs";
 import { pipeline } from "node:stream";
 import { promisify } from "node:util";
